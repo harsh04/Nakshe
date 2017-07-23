@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "899198423340",
+    "firebase_url": "https://nakshe-cc9d7.firebaseio.com",
+    "project_id": "nakshe-cc9d7",
+    "storage_bucket": "nakshe-cc9d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899198423340:android:2303a580d63a1728",
+        "android_client_info": {
+          "package_name": "harshmathur.nic.soi.com.nakshe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899198423340-ri7ip1i74o3hll1kar420k2m499sodb0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "harshmathur.nic.soi.com.nakshe",
+            "certificate_hash": "695f358b1c205c125ffd463f0ba381309c6043ae"
+          }
+        },
+        {
+          "client_id": "899198423340-l6lk5oo6c1ocopb7gspus24if0vnanrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFfJn7XyDSRiVm3bXZuDFDXFU3zDxvEwk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899198423340-l6lk5oo6c1ocopb7gspus24if0vnanrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
