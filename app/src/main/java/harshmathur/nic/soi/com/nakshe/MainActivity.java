@@ -275,10 +275,9 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             double lati;
             double longi;
             Cell z;
-            mainloop:
             for(int i=1; i<=row; i++){
-                for(int j=9; j>5; j--){
-                    if((!tehsil && j==7) || (!district && j==8) || (!state && j==9)){
+                for(int j=8; j>5; j--){
+                    if((!tehsil && j==7) || (!district && j==8)){
                         continue ;
                     }
                     z = s.getCell(j,i);             // keep column first then rows
@@ -291,9 +290,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                         Latitude.add(lati);
                         OSM.add(s.getCell(2,i).getContents());
                         RecyclerViewHorizontalAdapter.notifyDataSetChanged();
-                        if(j==9){
-                            break mainloop;
-                        }
                     }
                 }
             }
